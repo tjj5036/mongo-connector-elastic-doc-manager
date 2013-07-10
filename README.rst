@@ -6,15 +6,15 @@ Elastic Doc Manager for the mongo-connector tool
 Usage
 -----
 
-install via::
+Install via::
 
     python setup.py install
 
-start the mongo connector with::
+Start the mongo connector with::
 
     mongo-connector -df elastic_doc_manager    
 
-alternatively, if you download this module, you can 
+Alternatively, if you download this module, you can 
 start the connector with::
 
     mongo-connector -d <path_to>/elastic_doc_manager.py
