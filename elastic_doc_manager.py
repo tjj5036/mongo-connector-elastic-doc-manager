@@ -176,6 +176,4 @@ class DocManager(object):
 
         result = self.elastic.search(MatchAllQuery(), size=1, sort='_ts:desc')
         for item in result:
-            res = item
-            break
-        return res
+            return item
